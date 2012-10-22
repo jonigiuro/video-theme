@@ -1,0 +1,100 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+body, html{
+	height:100%;
+	width:100%;
+	font-family: 'Helvetica','Arial','sans-serif';
+	-webkit-transition: background 800ms linear;
+	-moz-transition: background 800ms linear;
+    -ms-transition: background 800ms linear;
+    -o-transition: background 800ms linear;
+	transition: background 800ms linear;
+}
+#wrapper{
+	margin:0 auto;
+	max-width: 900px;
+	width:90%;
+}
+#wrapper{
+	#header{
+		margin-bottom:20px;
+		padding:20px 0;
+		color:#fff;
+		text-shadow: 0 0 10px rgba(0,0,0,.2);
+		font-family: 'Griffy', cursive;
+		-webkit-transition: background 800ms linear;
+		-moz-transition: background 800ms linear;
+	    -ms-transition: background 800ms linear;
+	    -o-transition: background 800ms linear;
+		transition: background 800ms linear;
+		background-color: rgba(0,0,0,.5);
+		.title{
+			font-size:60px;
+			text-align:center;
+
+		}
+	}
+	#content{
+		overflow:auto;
+		#slideshow{
+			width:100%;
+			#window{
+				width:100%;
+				.slide{
+					position:absolute;
+					height:410px;
+					border:5px solid white;
+					width:900px;
+					box-sizing: border-box;
+					img{
+						width:100%;
+					}
+				}
+			}
+		}
+	}
+	#canvas{
+		width:900px;
+		height:400px;
+		margin-top:400px;
+		display:none;
+	}
+	.text{
+		margin-top:450px;
+		height:600px;
+		font-size:12px;
+		line-height:16px;
+	}
+		p{
+			padding:20px;
+			background-color:rgba(0,0,0,.5);
+			color:#fff;
+		}
+}

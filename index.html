@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Title</title>
+		<link href="css/style.css" media="all" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Griffy' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<header id="header">
+				<h1 class="title">
+					Image based themes
+				</h1>
+			</header>
+			<section id="content">
+				<div id="slideshow">
+					<div id="window">
+						<div class="slide active" id="slide-01">
+							<img src="img/buckbunny.jpg" alt="big buck bunny 1" />
+						</div>
+						<div class="slide" id="slide-02">
+							<img src="img/buckbunny-2.jpg" alt="big buck bunny 2" />
+						</div>
+						<div class="slide" id="slide-03">
+							<img src="img/buckbunny-3.jpg" alt="big buck bunny 3" />
+						</div>
+					</div>
+				</div>
+				<article class="text">
+					<p>
+						This piece of code reads the dominant color of the currently displayed image of the slideshow and then modifies some page elements accordingly (in this case background-color and title color).<br />
+						It has a setTheme function which receives the rgb values, in there you can do whatever you want, making it easilly usable with any other slideshow, gallery or anything that works with images.<br />
+					</p>
+				</article>
+			</section>
+			<canvas id="canvas" width="900" height="400"></canvas>
+			
+		</div>
+
+	<script src="js/jquery172.js"></script>
+	<script src="js/theme.js"></script>
+	</body>
+	
+
+</html>
