@@ -1,6 +1,6 @@
 var fadeLength = 800;
 var wait = 3000;
-var pixelSize = 100;
+var pixelSize = 20;
 can = document.getElementById('canvas');
 
 
