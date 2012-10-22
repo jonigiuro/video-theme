@@ -53,7 +53,8 @@ body, html {
   -o-transition: color 800ms linear;
   transition: color 800ms linear; 
   background-color:rgba(0,0,0,.2);}
-  #wrapper #header .title {
+.title {
+    font-family: 'Griffy', cursive;
     font-size: 60px;
     text-align: center; }
 #wrapper #content {
@@ -64,7 +65,6 @@ body, html {
       width: 100%; }
       #wrapper #content #slideshow #window .slide {
         position: absolute;
-        height: 410px;
         border: 5px solid white;
         width: 900px;
         box-sizing: border-box; }
@@ -73,14 +73,21 @@ body, html {
 #wrapper #canvas {
   width: 900px;
   height: 400px;
-  margin-top: 400px;
-  display: none; }
+}
 #wrapper .text {
   margin-top: 450px;
-  height: 600px;
+  height: 200px;
   font-size: 12px;
   line-height: 16px; }
 #wrapper p {
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff; }
+#loader{
+  position:absolute;
+  width:100%;
+  height:100%;
+  text-align:center;
+  padding-top:30%;
+  background:rgba(0,0,0,.8);
+}
