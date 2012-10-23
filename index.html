@@ -9,45 +9,30 @@
 
 	<body>
 		<a href="https://github.com/jonigiuro"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-		<div id="loader">
-				<img src="img/loader.gif" alt="loading" />
-			</div>
+
 		<div id="wrapper">
 
 			<header id="header">
 				<h1 class="title">
-					Image based themes
+					Video based themes
 				</h1>
 			</header>
 			<section id="content">
-				<div id="slideshow">
-					<div id="window">
-						<div class="slide active" id="slide-01">
-							<img src="img/buckbunny.jpg" alt="big buck bunny 1" />
-						</div>
-						<div class="slide" id="slide-02">
-							<img src="img/buckbunny-2.jpg" alt="big buck bunny 2" />
-						</div>
-						<div class="slide" id="slide-03">
-							<img src="img/buckbunny-3.jpg" alt="big buck bunny 3" />
-						</div>
-						<div class="slide" id="slide-04">
-							<img src="img/buckbunny-4.jpg" alt="big buck bunny 4" />
-						</div>
-					</div>
-				</div>
+				<video id="video" controls loop>
+				    <source src="img/bunny.ogg" type="video/ogg">
+				    <source src="img/bunny.mp4" type="video/mp4">
+				</video>
 				<article class="text">
 					<p>
-						This piece of code reads the dominant color of the currently displayed image of the slideshow and then modifies some page elements accordingly (in this case background-color and title color).<br />
-						It has a setTheme function which receives the rgb values, in there you can do whatever you want, making it easilly usable with any other slideshow, gallery or anything that works with images.<br />
+						This code reads the color information of the current frame in the video and sets the mood of the page accordingly.
 						Please note that the canvas below needs to be there for the script to compute colors, but it's not mandatory that it's visible to the user. You can set its visibility to hidden or <a href="#" class="hide">display:none</a>.
 					</p>
 				</article>
 			</section>
-			<div class="title">
+			<div class="title down">
 				The canvas:
 			</div>
-			<canvas id="canvas" width="900" height="400"></canvas>
+			<canvas id="canvas" width="854" height="480"></canvas>
 
 		</div>
 

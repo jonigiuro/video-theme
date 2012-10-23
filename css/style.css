@@ -47,16 +47,17 @@ body, html {
   color: #fff;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   font-family: 'Griffy', cursive;
-  -webkit-transition: color 800ms linear;
-  -moz-transition: color 800ms linear;
-  -ms-transition: color 800ms linear;
-  -o-transition: color 800ms linear;
-  transition: color 800ms linear; 
+  -webkit-transition: color 1500ms linear;
+  -moz-transition: color 1500ms linear;
+  -ms-transition: color 1500ms linear;
+  -o-transition: color 1500ms linear;
+  transition: color 1500ms linear; 
   background-color:rgba(0,0,0,.2);}
 .title {
-    font-family: 'Griffy', cursive;
+    font-family: 'Griffy', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 60px;
-    text-align: center; }
+    text-align: center; 
+    color:#fff;}
 #wrapper #content {
   overflow: auto; }
   #wrapper #content #slideshow {
@@ -71,12 +72,12 @@ body, html {
         #wrapper #content #slideshow #window .slide img {
           width: 100%; }
 #wrapper #canvas {
-  width: 900px;
-  height: 400px;
+  width: 854px;
+  height: 480px;
+  margin: 0 auto;
 }
 #wrapper .text {
-  margin-top: 450px;
-  height: 200px;
+  margin-top: 50px;
   font-size: 12px;
   line-height: 16px; }
 #wrapper p {
@@ -90,4 +91,14 @@ body, html {
   text-align:center;
   padding-top:30%;
   background:rgba(0,0,0,.8);
+}
+#canvas{
+
+}
+#video{
+  border:5px solid #fff;
+  margin: 0 auto;
+}
+.down{
+  margin-top:40px;
 }
