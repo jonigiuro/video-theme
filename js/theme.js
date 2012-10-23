@@ -35,15 +35,6 @@ v.addEventListener('play', function(){
 
 
 function setTheme(r,g,b){
-	$('body').css('background-color','rgba(' + r + ',' + g + ',' + b + ', 1)');
+	$('body').css('background-color','rgba(' + r + ',' + g + ',' + b + ', .5)');
+	$('#video').css('box-shadow','0 0 20px '+ ((r+g+b)/100) +'px rgba(' + r + ',' + g + ' , ' + b +' , 1)');
 }
-
-
-$('.hide').click(function(){
-	if($('#canvas').css('display') == 'none'){
-		$('#canvas').css('display','block');
-	}else{
-		$('#canvas').css('display','none');
-	}
-	
-})
