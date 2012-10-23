@@ -35,5 +35,5 @@ v.addEventListener('play', function(){
 
 
 function setTheme(r,g,b){
-	$('body').css('background-color','rgba(' + r + ',' + g + ',' + b + ', .5)');
+	$('body').css('background-color','rgba(' + r + ',' + g + ',' + b + ', .7)');
 }
