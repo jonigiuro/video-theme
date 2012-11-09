@@ -5,6 +5,20 @@ var can = document.getElementById('canvas');
 var ctx = can.getContext('2d');
 var v = document.getElementById('video');
 
+$('#start-btn').click(function(e){
+	e.preventDefault();
+	navigator.webkitGetUserMedia(
+	  {"video": true, "audio": true}, 
+	  function(s){
+	    document.querySelector('video').src = 
+	    window.webkitURL.createObjectURL(s);
+	  }, 
+	  function(e){
+	  	alert('You blocked access to the webcam');
+	  }
+	);
+})
+
 
 function draw(v,c,w,h) {
 	var red = 0; var green = 0; var blue = 0;
