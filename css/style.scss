@@ -50,7 +50,7 @@ body {
 	
 
 	.shrink {
-		width: 900px;
+		width: 865px;
 		margin: 0 auto;
 	}
 }
@@ -73,5 +73,17 @@ body {
 
 	video {
 		border: 5px solid white;
+	}
+
+	#canvas-container {
+		display: none;
+	}
+
+	.current-color {
+		border: 5px solid white;
+		padding: 10px;
+		text-align: center;
+		font-family: 'Griffy', cursive;
+		font-size: 25px;
 	}
 }

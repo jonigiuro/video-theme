@@ -45,7 +45,7 @@ body {
   -o-transition: background-color 800ms linear;
   transition: background-color 800ms linear; }
   #wrapper .shrink {
-    width: 900px;
+    width: 865px;
     margin: 0 auto; }
 
 #wrapper #header {
@@ -59,3 +59,11 @@ body {
     text-align: center; }
 #wrapper video {
   border: 5px solid white; }
+#wrapper #canvas-container {
+  display: none; }
+#wrapper .current-color {
+  border: 5px solid white;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Griffy', cursive;
+  font-size: 25px; }
